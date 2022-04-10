@@ -125,15 +125,6 @@ Este será o Widget que nosso App irá lançar no método `main`; vamos criá-lo
 ```dart
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
-import 'model/computador.dart';
-import 'model/jogada.dart';
-import 'model/lagarto.dart';
-import 'model/papel.dart';
-import 'model/pedra.dart';
-import 'model/spock.dart';
-import 'model/states.dart';
-import 'model/tesoura.dart';
 import 'widgets/home_page_widgets.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -210,7 +201,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 tamanho: 36,
                 icone: FontAwesomeIcons.handFist,
                 jogar: () {
-                  jogar(Pedra());
                 },
               ),
               ButtonWidget(
@@ -218,7 +208,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 tamanho: 36,
                 icone: FontAwesomeIcons.solidHand,
                 jogar: () {
-                  jogar(Papel());
                 },
               ),
               ButtonWidget(
@@ -226,7 +215,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 tamanho: 36,
                 icone: FontAwesomeIcons.solidHandPeace,
                 jogar: () {
-                  jogar(Tesoura());
                 },
               ),
               ButtonWidget(
@@ -242,7 +230,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 tamanho: 36,
                 icone: FontAwesomeIcons.solidHandSpock,
                 jogar: () {
-                  jogar(Spock());
                 },
               ),
             ],
