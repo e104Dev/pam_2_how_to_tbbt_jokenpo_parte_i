@@ -4,6 +4,8 @@ Este tutorial tem por finalidade explorar e condicionar nosso entendimento e hab
 
 > O Tuorial foi dividio em 2 partes as quais iremos criar a interface com componentes reutilizáveis, uso tema customizado e também utilizaremos 2 widgets para tratarmos responsividade.
 
+> Devido à importação do pacote FontAwesome, os ícones **não poderão ser importados quando você utilizar o DartPad**; então utilize o VSCode ou Android Studio. Caso tenha impossibilidade de utilizar as IDEs [VSCode e AndroidStudio], utilize os ícones nativos do Material Design, você poderá visualizá-los [aqui](https://fonts.google.com/icons) e escolher os ícones ao seu gosto.
+
 ## Parte I - Interface Gráfica
 
 ### Estrutura inicial do App
